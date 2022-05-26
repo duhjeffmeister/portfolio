@@ -1,0 +1,145 @@
+/*Global/Universal Styles*/
+* {
+    margin: 0;
+}
+
+body {
+    background-color: gray;
+}
+
+a {
+    color: #ffffff;
+    text-decoration: none;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+p {
+    padding-left: 10px;
+}
+/*End Global/Universal Styles*/
+
+/*Header Style*/
+.header {
+    padding: 20px;
+    background-color: gray;
+    color: #ffffff;
+    top: 0;
+    position: sticky;
+    z-index: 9999;
+}
+
+.header h1 {
+    display: inline-block;
+    font-size: 48px;
+}
+
+.header nav {
+    margin-right: 20px;
+    float: right;
+    font-size: 20px;
+}
+
+.header nav ul {
+    list-style-type: none;
+}
+
+.header nav ul li {
+    padding-top: 15px;
+    display: inline-block;
+    margin-left: 25px;
+}
+
+/*End Header Style*/
+
+/*Hero Style*/
+.hero {
+    height: 50vh;
+    margin-bottom: 50px;
+    background-image: url(../images/hero-background.jpg);
+    background-size: cover;
+    background-position-x: center;
+    background-position-y: bottom;
+}
+/*End Hero Style*/
+
+/*About Me Section*/
+#about-me {
+    width: 60%;
+    font-size: 30px;
+    display: flex;
+    padding-top: 100px;
+    margin-left: auto;
+    margin-right: auto;
+    justify-content: center;
+    align-items: center;
+    border-bottom: solid #ffffff;
+    color: #ffffff;
+}
+
+.right-about-me img {
+    width: 75%;
+    height: auto;
+    border-radius: 50%;
+    filter: drop-shadow(5px 5px 7px black);
+}
+/*End About Me*/
+
+/*Content Style*/
+.projects {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.top-half {
+    display: flex;
+    width: 60%;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.bottom-half {
+    display: flex;    
+    flex-direction: row;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    justify-content: space-between;
+}
+
+#run-buddy {
+    width: 100%;
+    height: auto;
+    filter: drop-shadow(8px 8px 7px black);
+}
+
+#horiseon {
+    max-height: 179px;
+    width: 100%;
+    filter: drop-shadow(8px 8px 7px black);
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+#robot-gladiators {
+    height: auto;
+    width: 100%;
+    filter: drop-shadow(8px 8px 7px black);
+    padding-left: 20px;
+    padding-right: 20px;
+}
+/*End Content Style*/
+
+/*Footer Style*/
+.contact {
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    font-size: 25px;
+}
+/*End Footer Style*/
