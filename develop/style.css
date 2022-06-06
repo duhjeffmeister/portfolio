@@ -56,7 +56,7 @@ p {
 
 /*Hero Style*/
 .hero {
-    height: 50vh;
+    /* height: 50vh; */
     margin-bottom: 50px;
     background-image: url(../images/hero-background.jpg);
     background-size: cover;

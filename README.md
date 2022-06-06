@@ -5,4 +5,4 @@
 
 Link to published page: https://duhjeffmeister.github.io/jeff-portfolio/
 
-![screenshot](./develop/images/portfolio-screenshot.png)
+![screenshot](./develop/images/screenshot.png)
