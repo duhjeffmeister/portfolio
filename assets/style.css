@@ -23,17 +23,21 @@ p {
 
 /*Header Style*/
 .header {
-    padding: 20px;
+    padding: 1em;
     background-color: gray;
     color: #ffffff;
     top: 0;
     position: sticky;
     z-index: 9999;
+    height: 15vh;
 }
 
 .header h1 {
     display: inline-block;
     font-size: 48px;
+    width: 50%;
+    height: 50%;
+    text-align: center;
 }
 
 .header nav {
@@ -44,10 +48,11 @@ p {
 
 .header nav ul {
     list-style-type: none;
+    display: inline-block;
 }
 
 .header nav ul li {
-    padding-top: 15px;
+    /* padding-top: 15px; */
     display: inline-block;
     margin-left: 25px;
 }
@@ -56,9 +61,8 @@ p {
 
 /*Hero Style*/
 .hero {
-    /* height: 50vh; */
     margin-bottom: 50px;
-    background-image: url(../images/hero-background.jpg);
+    background-image: url(./images/hero-background.jpg);
     background-size: cover;
     background-position-x: center;
     background-position-y: bottom;
@@ -143,3 +147,63 @@ p {
     font-size: 25px;
 }
 /*End Footer Style*/
+
+/*Media Queries*/
+@media only screen and (max-width: 1460px) {
+    /* .projects {
+        width: 100%;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-evenly;
+    }
+    
+    .top-half {
+        display: flex;
+        width: 60%;
+        flex-direction: row;
+        justify-content: center;
+    } */
+    
+    .bottom-half {
+        flex-direction: column;
+        width: 60%;
+    }
+
+    /* #run-buddy {
+        width: 100%;
+        height: auto;
+        filter: drop-shadow(8px 8px 7px black);
+    } */
+    
+    #horiseon {
+        /* max-height: 179px; */
+        width: auto;
+        filter: drop-shadow(8px 8px 7px black);
+        /* padding-left: 20px;
+        padding-right: 20px; */
+    }
+    
+    #robot-gladiators {
+        height: auto;
+        width: auto;
+        filter: drop-shadow(8px 8px 7px black);
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+}
+
+@media only screen and (max-width: 1380px) {
+    .header h1 {
+        width: 30%;
+    }
+}
+
+@media only screen and (max-width: 1002px) {
+    .header nav ul {
+        display: flex;
+        flex-direction: column;
+        top: 0;
+    }
+}
